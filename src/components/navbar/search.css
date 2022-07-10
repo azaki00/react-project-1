@@ -1,0 +1,28 @@
+.searchBar{
+    background-color: rgba(230, 230, 230, 0.4);
+    border-radius: 10px;
+    border: 1px solid rgba(230, 230, 230, 1);   
+    font-family: verdana;
+    font-size: 0.9em;
+    outline: none;
+    transition: all 0.3s;
+    line-height: 2.5em;
+    /* clip-path: circle(36.2% at 0 49%); */
+    align-items: center;
+    position: relative;
+    
+
+}
+
+.searchCont{
+    transition: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none ;
+    transform: translateX(-50%);
+}
+
+.searchCont--show{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(0);
+}

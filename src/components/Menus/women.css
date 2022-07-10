@@ -1,0 +1,41 @@
+
+.women{
+    position: relative;
+    transition: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(0%);
+    transform: translateY(-75%);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0);
+    box-shadow: 2px 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+
+
+ul, li{
+    list-style: none;
+    font-family: verdana;
+
+}
+.women--show{
+    opacity: 1;
+    pointer-events: all;
+    background-color: rgba(255,255,255,1);
+    border-radius: 20px;
+}
+
+.mainWoman{
+    display: flex;
+    flex-direction:column;
+    font-size: 0.8em;
+    color: brown;
+}
+
+.mainWoman li:hover{
+    text-decoration: underline ;
+}
+.mainWoman li{
+    color: rgba(0,0,0,0.81)
+}

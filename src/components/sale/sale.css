@@ -1,0 +1,17 @@
+p{
+    margin: none;
+    line-height: 2em;
+    text-transform: uppercase;
+    background-color: #243A3E;
+    text-align: center;
+    font-size: 0.9em;
+    /* font-weight: 500;; */
+    color: #fff;
+    margin: 0;
+    cursor: text;
+}
+div{
+    margin: none;
+    display: block;
+    position: relative;
+}

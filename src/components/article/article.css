@@ -1,0 +1,37 @@
+.Article{
+    /* background-image: url("C:\Users\Ahmad Issa\js\tbc\src\images\img1.jpg"); */
+    font-family: Georgia;
+}
+.cont{
+    position: relative;
+    transform: translateY(22vh);
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.text1, .text2, .text3{
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 8vh;
+    text-shadow: 2px 2px #000000;
+}
+.text3{
+    font-weight: 300;
+    font-size: 2.6vh;
+    /* background-color: rgba(59, 49, 46, 0.8);
+    width: max-content;
+    position: relative; */
+}
+.btns{
+    padding: 1em;
+
+}
+
+.btn1, .btn2{
+    width: auto;
+    font-size: 1.3em;
+    font-family: Verdana;;
+}
